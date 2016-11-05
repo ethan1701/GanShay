@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="contacts.css"/>
+  <title>דף קשר גן שי 2017</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="showKids.js"></script>
+    <script src="https://spreadsheets.google.com/feeds/cells/1YAHkX9JeBOLaV7EVMgHDQmidaRdCyZkNDb--deQVRXc/3/public/values?alt=json-in-script&callback=doData"></script>
+
+    <div id="wrapper">
+        <div id="top">
+            <H1>דף קשר גן שי 2017</H1>
+        </div>
+        <div id="detailsContainer" class="dynamic">
+            <span id="close" onclick="hideDetails()" title="סגור">סגור</span>
+            <div id="details"></div>
+        </div>
+        <div id="body" class="dynamic">
+            <div id="data" data-role="page"></div>
+        </div>
+    </div>
+    <div id="footer">
+    <div id="infooter">
+      &copy; איתן שלו
+          <br />שמור <a href="https://docs.google.com/spreadsheets/d/1YAHkX9JeBOLaV7EVMgHDQmidaRdCyZkNDb--deQVRXc/export?format=xlsx&id=1YAHkX9JeBOLaV7EVMgHDQmidaRdCyZkNDb--deQVRXc&gid=1137670042" class="xls">xlsx
+          </a>
+          <a href="https://docs.google.com/spreadsheets/d/1YAHkX9JeBOLaV7EVMgHDQmidaRdCyZkNDb--deQVRXc/export?format=pdf&id=1YAHkX9JeBOLaV7EVMgHDQmidaRdCyZkNDb--deQVRXc&gid=1137670042" class="pdf">pdf
+          </a>
+        </div>
+    </div>
+</body>
+</html>
