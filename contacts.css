@@ -132,6 +132,15 @@ h1 {
     background: url(images/phone-icon.png) no-repeat right;
 }
 
+.whatsapp{
+    background: url(images/Whatsapp-icon.png) no-repeat right;
+	background-size: 16px 16px;
+	width:16px;
+	height:16px;
+	padding-left:16px;
+	margin-right:5px;
+}
+
 .email{
     background: url(images/email-Icon.png) no-repeat right;
 }
@@ -358,6 +367,10 @@ h1 {
     .email{
         word-break: break-all;
     }
+
+	.whatsapp{
+		display:none;
+	}
 
     a{
         text-decoration: inherit;

@@ -29,7 +29,7 @@
   function getContactInfo(info, type){
     if (null == info) return null;
     if (type=="phone"){
-        return ("<a href='tel:"+info+"' class='"+ type +"' target='_blank'>" + info + "</a>");
+        return ("<div class= '"+ type +"'><a href='tel:"+info+"' target='_blank'>" + info + "</a><a href='https://api.whatsapp.com/send?phone=972"+info+"' alt='שלח הודעת WhatsApp' target='_blank' class='whatsapp'></a></div>");
     }else if(type=="email"){
         return ("<a href='mailto:"+info+"' class='"+ type +"' target='_blank'>" + info + "</a>");
     }else return null;
